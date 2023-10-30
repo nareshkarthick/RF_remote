@@ -11,7 +11,7 @@ Variables    E:/Automation/Datas/xpath.py
 tc01
 #checkbox
     Open Browser    ${URL3_demo_automationtesting}    ${browser}
-    Sleep    2
+    Sleep    3
      
     Select Checkbox    //input[@id="checkbox1"]
     Checkbox Should Be Selected    //input[@id="checkbox1"]
