@@ -20,7 +20,7 @@ Variables    E:/Automation/Datas/xpath.py
 
 *** Test Cases ***
 
-tc01
+TC01
     Open Browser   https://www.techlistic.com/p/selenium-practice-form.html    ${browser}
     
     Maximize Browser Window    
@@ -62,12 +62,12 @@ Verify Successful Login to the-internet.herokuapp
     Element Should Be Visible  css:[href="/logout"]  timeout=8
     Close Browser
 
-dict
+DICT
     ${my_dict}  Create Dictionary  name=John  age=30  country=USA
     ${age}      Get From Dictionary  ${my_dict}  age
     Log To Console    ${age}
 
-List
+LIST
     @{my_list}    Create List  naresh    karthick    balaji    viji    ajay 
     FOR    ${element}    IN    @{my_list}
         Log To Console    ${element}

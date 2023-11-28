@@ -9,13 +9,13 @@ Variables    E:/Automation/Datas/xpath.py
      
 
 *** Test Cases***
-tc02
+TC02
 #capture page screenshot
    Open Browser     ${URL_techlistic}    ${browser}
    Capture Page Screenshot
    Close Browser
 
-tc03
+TC03
 #capture Element screenshot
 
     Open Browser     ${URL2_orangehrm}    ${browser}
@@ -24,12 +24,12 @@ tc03
     Capture Element Screenshot    ${Xpath_capture_Element_Screenshot}
     Close Browser
        
-tc04
+TC04
 #checkbox should not be selected
     Open Browser     ${URL3_demo_automationtesting}    ${browser}
     Checkbox Should Not Be Selected    ${Xpath_Checkbox_Should_Not_Be_Selected}
     Close Browser
-tc05
+TC05
 #choose file
     Open Browser    ${URL_techlistic}    ${browser}
     Maximize Browser Window
@@ -38,7 +38,7 @@ tc05
     sleep    3
     Close Browser      
 
-tc06
+TC06
 #click element text
     Open Browser    ${URL4_saucedemo}    ${browser}
     Maximize Browser Window
@@ -53,7 +53,7 @@ tc06
     Close Browser
 
 
-tc07
+TC07
 #click button
     Open Browser    ${URL2_orangehrm}    ${browser}
     Maximize Browser Window
@@ -61,7 +61,7 @@ tc07
     Click Button    //button[@type="submit"]
     Close Browser
 
-tc08
+TC08
 #click element
     Open Browser    ${URL4_saucedemo}    ${browser}
     Maximize Browser Window
@@ -69,7 +69,7 @@ tc08
     Click Element    //input[@id="login-button"]
     Close Browser
 
-tc09
+TC09
 #click image
     Open Browser    ${URL2_orangehrm}    ${browser}
     Maximize Browser Window
@@ -84,7 +84,7 @@ tc09
 
     Close Browser
 
- tc10  
+ TC10  
  #click link
      Open Browser    ${URL7_car}    ${browser}
      Click Link    (//a[@data-matarget="algo"])[1]

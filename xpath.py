@@ -9,6 +9,6 @@ Xpath_dropdown=    '//select[@id="continents"]'
 Xpath_Button_choosefile=  '//input[@id="photo"]'    
 Xpath_scroll=  "//h2[text()='How to Automate 'Practice Form' with Selenium WebDriver']"
 
-#selenium keywords
+#selenium keywords..
 Xpath_capture_Element_Screenshot= '//input[@name="username"]'    
 Xpath_Checkbox_Should_Not_Be_Selected=    '//input[@id="checkbox1"]'

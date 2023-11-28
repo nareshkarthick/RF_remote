@@ -6,5 +6,6 @@ URL5_flipkart = 'https://www.flipkart.com/'
 URL6_google = 'www.google.com'
 URL7_car = 'https://in.search.yahoo.com/search?fr=mcafee&type=E211IN826G0&p=car'
 
+#CHROME BROWSER
 browser = "chrome"
 

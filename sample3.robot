@@ -8,7 +8,7 @@ Variables    E:/Automation/Datas/xpath.py
 
 
 *** Test Cases ***
-tc01
+TC01
 #checkbox
     Open Browser    ${URL3_demo_automationtesting}    ${browser}
     Sleep    3
