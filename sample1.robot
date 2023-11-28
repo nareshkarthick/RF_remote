@@ -68,7 +68,7 @@ DICT
     Log To Console    ${age}
 
 LIST
-    @{my_list}    Create List  naresh    karthick    balaji    viji    ajay 
+    @{my_list}    Create List  naresh    karthick    balaji    viji    ajay    praveen    ajith
     FOR    ${element}    IN    @{my_list}
         Log To Console    ${element}
         
